@@ -26,6 +26,8 @@ yarn-error.log*
 
 #config
 backend/.env
+/.env
+.env
 
 #Apple
 .idea

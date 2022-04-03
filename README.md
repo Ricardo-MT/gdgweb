@@ -1,18 +1,30 @@
-# Plantilla para proyectos con React y Express.
+# Descripción del repositorio.
 
-Esta plantilla tiene lo necesario para comenzar un proyecto usando React en el front-end, concretamente usando Create-React-App, y para el backend usamos el conjunto de herramientas formado por: MongoDB, NodeJs y Express. 
+Este repositorio contiene el proyecto web encargado de implementar el portal web de la comunidad GDG Algeciras. Está basado en React en el front-end, concretamente usando Create-React-App, y para el backend usamos el conjunto de herramientas formado por: MongoDB, NodeJs y Express. 
 
 ## Antes de comenzar
 
 Antes de comenzar será necesario dentro del directorio /backend crear un archivo .env (Archivo de configuración de variables). En este archivo tendremos que poner las siguientes variables como mínimo:
--  ATLAS_URI
+- ATLAS_URI
 - SESS_NAME
 - SESS_SECRET
 - SESS_LIFETIME
 - mode
 - port
 
+El valor de dichas variables será provisto en el canal de Telegram de la comunidad.
+
 ## Una vez tenemos el proyecto configurado.
+
+### Instalar en tu ordenador NODE, MongoDB y YARN
+
+Instalar Node: [https://nodejs.org/en/download/](https://nodejs.org/en/download/) .
+Instalar MongoDB: [https://www.mongodb.com/docs/manual/administration/install-community/](https://www.mongodb.com/docs/manual/administration/install-community/) .
+Instalar YARN: [https://classic.yarnpkg.com/lang/en/docs/install](https://classic.yarnpkg.com/lang/en/docs/install) .
+
+### Ejecutar comando para instalar los paquetes
+
+En el directorio raiz, ejecutar el comando "yarn install".
 
 ### Descripción Estructura
 

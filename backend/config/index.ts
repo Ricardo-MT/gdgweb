@@ -85,7 +85,7 @@ const configVariables =  {
                 contact: {
                     name: "",
                     url: "",
-                    email: "info@boorpret.com"
+                    email: "gdg@gdg.com"
                 }
             },
             servers: [

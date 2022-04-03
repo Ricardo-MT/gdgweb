@@ -2,7 +2,7 @@ import React from 'react';
 import Icons, {IconProps} from './IconGallery/Index';
 
 /**
- * @author Papo
+ * @author Ricardo
  * @param icon Tipo string. Definicón de ícono a utilizar. Por defecto el logo de Fidias.
  * @param size Tipo number. Aplica al width y al height su valor, haciéndolo cuadrado. Tiene preferencia sobre el prop "style", por lo que su uso anula los valores de width y height del "style" pasado.
  * @param style Estilos css.

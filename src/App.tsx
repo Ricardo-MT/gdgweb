@@ -9,7 +9,7 @@ import moment from 'moment';
 import Loader from './components/Loader/Loader';
 
 //Importaciones útiles.
-import iturriApi from './utils/api/config';
+import appApi from './utils/api/config';
 import { UserContext } from './utils/contexts/userContext';
 import { checkAuth } from './utils/api/auth.endpoints';
 import useAxios from './utils/api/useAxios';
@@ -38,8 +38,8 @@ function App() {
   useEffect(() => {
 
 		//Iniciar Axios
-		iturriApi.interceptors.request.use(interceptors.request, interceptors.error);
-		iturriApi.interceptors.response.use(interceptors.response, interceptors.error);
+		appApi.interceptors.request.use(interceptors.request, interceptors.error);
+		appApi.interceptors.response.use(interceptors.response, interceptors.error);
 
 		//Iniciar el contexto del usuario.
 		checkAuth()
@@ -52,7 +52,7 @@ function App() {
 
   return (
     <div className="App">
-      {loaded ? <AppRoutes/> : <div> PANTALLA INICIAL DE CARGA</div>}
+      {loaded ? <AppRoutes/> : <div>INITIAL LOADING PAGE</div>}
       {requestsCounter > 0 && <Loader/>}
       {axiosNotification && <Notification show={!!axiosNotification} type={axiosNotification?.type} text={axiosNotification?.text} style={{ position: 'fixed' , right:'15px', top:'10px'}} />}
     </div>

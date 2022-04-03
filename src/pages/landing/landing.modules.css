@@ -1,0 +1,23 @@
+h1{
+    margin: 0px;
+    padding: 20px;
+}
+div{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/plaza_alta.png);
+    color: white;
+    font-weight: bold;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    height: 40vmin;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}

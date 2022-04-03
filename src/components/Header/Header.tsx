@@ -19,7 +19,6 @@ export const Header: FunctionComponent<Props> = (props) => {
 		<React.Fragment>
 			<div className={styles.headerContainer}>
 				{/* <SearchBar resultados={[]} onSelectResult={() => {}} onChangeSearchValue={() => {}} /> */}
-
 				<div className={styles.userInfo}>
 					<span className={styles.textInfo}>
 						<label className={styles.nombre}>{props.username}</label>
