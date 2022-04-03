@@ -18,9 +18,9 @@ El valor de dichas variables será provisto en el canal de Telegram de la comuni
 
 ### Instalar en tu ordenador NODE, MongoDB y YARN
 
-Instalar Node: [https://nodejs.org/en/download/](https://nodejs.org/en/download/) .
-Instalar MongoDB: [https://www.mongodb.com/docs/manual/administration/install-community/](https://www.mongodb.com/docs/manual/administration/install-community/) .
-Instalar YARN: [https://classic.yarnpkg.com/lang/en/docs/install](https://classic.yarnpkg.com/lang/en/docs/install) .
+Instalar Node: [https://nodejs.org/en/download/](https://nodejs.org/en/download/).\
+Instalar MongoDB: [https://www.mongodb.com/docs/manual/administration/install-community/](https://www.mongodb.com/docs/manual/administration/install-community/).\
+Instalar YARN: [https://classic.yarnpkg.com/lang/en/docs/install](https://classic.yarnpkg.com/lang/en/docs/install).\
 
 ### Ejecutar comando para instalar los paquetes
 
