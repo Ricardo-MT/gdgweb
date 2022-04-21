@@ -26,6 +26,14 @@ Instalar YARN: [https://classic.yarnpkg.com/lang/en/docs/install](https://classi
 
 En el directorio raiz, ejecutar el comando "yarn install".
 
+### Ejecutar comandos para correr la web
+
+Para arancar el backend, en la terminal moverse a la carpeta "backend" y correr el siguiente comando:
+## `yarn start`
+
+Para arancar el frontend, en la terminal moverse a la carpeta raiz y correr el siguiente comando:
+## `yarn start`
+
 ### Descripción Estructura
 
 Tenemos dos grandes directorios. Backend y src. Estos son nuestros directorios base. Cualquier cosa del frontend estará dentro de la carpeta src, y cualquier cosa del backend estará en la carpeta backend. 
